@@ -376,14 +376,27 @@ footer {
   color: #2F3E46;
 }
 
-footer p {
-  margin: 0 0 8px 0;
+footer .mail,
+footer .linkedin {
+  padding: 2px;
+  justify-self: center;
 }
 
 footer address p {
   margin: 0;
   font-style: normal;
   line-height: 1.5;
+}
+
+footer a {
+  color: #2F3E46;
+  text-decoration: none;
+}
+
+footer img {
+  padding-right: 10px;
+  height: 12px;
+  width: auto;
 }
 
 /* Responsividade: telas até 760px */
